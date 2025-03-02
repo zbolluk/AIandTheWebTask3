@@ -1,4 +1,0 @@
-flask
-flask-sqlalchemy
-requests
-better_profanity
