@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const HUB_AUTHKEY = "1234567890";
-const HUB_URL = "http://localhost:5555";
+const HUB_AUTHKEY = "Crr-K24d-2N";
+const HUB_URL = "http://vm146.rz.uni-osnabrueck.de/hub";
 
 function App() {
   const [channels, setChannels] = useState([]);
