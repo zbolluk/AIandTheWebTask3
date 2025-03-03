@@ -16,7 +16,7 @@ AI & the Web, winter term 2024/2025
 
 4. Register the channel server with the hub (another different shell)
 
-    > flask --app newChannel.py register
+    > flask --app channel.py register
     
 5. Now start the client (new shell of shell from 4.) 
 

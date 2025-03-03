@@ -2,11 +2,16 @@ from flask import Flask, request, render_template, url_for, redirect
 import requests
 import urllib.parse
 import datetime
+import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-HUB_AUTHKEY = '1234567890'
-HUB_URL = 'http://localhost:5555'
+load_dotenv()
+
+HUB_AUTHKEY = os.getenv('SERVER_AUTHKEY')
+HUB_URL ='http://vm146.rz.uni-osnabrueck.de/hub'
+
 
 CHANNELS = None
 LAST_CHANNEL_UPDATE = None
